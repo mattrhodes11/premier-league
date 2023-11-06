@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "cypress": "^13.3.2",
+    "cypress-mochawesome-reporter": "^3.6.1"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --browser chrome --spec cypress/e2e/**/*",
+    "cypress:run:headed": "cypress run --browser chrome --headed --no-exit --spec cypress/e2e/**/*"
+  }
+}
